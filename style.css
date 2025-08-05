@@ -5,18 +5,58 @@
 }
 
 body {
- background-color: lightcyan; 
+ background-color: white; 
 }
 
 /* STYLE TEXT */
 
 h1 {
-  color: navy;
+  color: black; 
+   }  
+p{
+   font-size: 160%;
+   font-family: "Times New Roman", Times, serif; 
+   font-style: normal;
 }
 
-/* STYLE IMAGES */
+/* STYLE IMAGES */ 
+#AIgirl{
+   margin-left:13%;
+}
 
-/* STYLE NAV BAR */
+/* STYLE NAV BAR */ 
+nav{
+  text-align: left; 
+  font-family: Times, serif; 
+  font-size: large; 
+  font-stretch: ultra-condensed; 
+  word-break: break-word;   
+  padding-bottom: 4em;
+  width:100%;
+} 
+
+ul{
+  list-style-type:none;
+  background:
+    black; 
+  padding: 1em; 
+  }   
+
+li{
+  display: inline;
+}
+
+li a{
+  text-decoration: none; 
+  color: white;
+  font-size: 1.3em; 
+  padding: 1em; 
+
+} 
+
+li a:hover{
+  background-color: 	#239AE5;
+}
 
 /* STYLE BUTTONS */
 
